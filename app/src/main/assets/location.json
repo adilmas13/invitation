@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Home",
+    "name": "Akshay Dineshbhai Mehta",
+    "address": "1st Floor, Rushab Apartment, Ghee Wali Street, Near Farsani Duniya, Waniyavad, Bhuj - Kutch",
+    "lat": 23.253316,
+    "lng": 69.673113
+  },
+  {
+    "title": "Mandva",
+    "name": "Shri Visa Oswal Jain Gurjar Wadi (Jain Vando)",
+    "address": "Waniyavad, Near Mumbai Central Showroom, Bhuj - Kutch",
+    "lat": 23.252059,
+    "lng": 69.672158
+  },
+  {
+    "title": "Sangeet Sandhya",
+    "name": "Vagad Be Chowisi Samajwadi",
+    "address": "Near Fire Station, Near RTO Circle, Bhuj - Kutch",
+    "lat": 23.239562,
+    "lng": 69.68243
+  },
+  {
+    "title": "Marriage",
+    "name": "Jain Dharmsala",
+    "address": "Jain Dharmsala Road, Mandvi - Kutch",
+    "lat": 22.832201,
+    "lng": 69.355386
+  }
+]

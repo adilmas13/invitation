@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="gallery">
+        <item>@drawable/gallery_1</item>
+        <item>@drawable/gallery_2</item>
+        <item>@drawable/gallery_3</item>
+        <item>@drawable/gallery_4</item>
+        <item>@drawable/gallery_5</item>
+        <item>@drawable/gallery_6</item>
+        <item>@drawable/gallery_7</item>
+        <item>@drawable/gallery_8</item>
+        <item>@drawable/gallery_9</item>
+        <item>@drawable/gallery_10</item>
+        <item>@drawable/gallery_11</item>
+        <item>@drawable/gallery_12</item>
+    </integer-array>
+
+</resources>
