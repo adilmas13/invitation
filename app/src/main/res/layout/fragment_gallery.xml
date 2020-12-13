@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.invitation.GalleryFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/tvPreWedding"
+            android:layout_marginEnd="10dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tvPreWedding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pre_wedding"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_toEndOf="@id/tvPreWedding"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="#cccccc" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/flVideoParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivControl"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/selector_play_pause" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="#cccccc" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:text="@string/gallery"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="#cccccc" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:paddingBottom="3dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivPrevious"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:rotation="180"
+            android:tint="#757575"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivNext"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|end"
+            android:tint="#757575"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </FrameLayout>
+</LinearLayout>

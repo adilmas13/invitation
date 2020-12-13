@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">A weds H</string>
+    <string name="title_home">Home</string>
+    <string name="invitation">Invitation</string>
+    <string name="gallery">Gallery</string>
+    <string name="mandva">Mandva</string>
+    <string name="sangeet_sandhya">Sangeet Sandhya</string>
+    <string name="marriage">Marriage</string>
+    <string name="location">Location</string>
+    <string name="address">Address</string>
+    <string name="direction">Get Direction</string>
+    <string name="sangeet">Sangeet</string>
+    <string name="akshay_weds_hetal">Akshay weds Hetal</string>
+    <string name="pre_wedding">Pre Wedding</string>
+    <string name="jab_koi">Jab Koi Baat Bigad Jaaye....</string>
+    <string name="share">Share</string>
+
+</resources>
